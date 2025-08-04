@@ -146,6 +146,14 @@ source install/setup.bash
 ros2 launch rslidar_sdk start.py
 ```
 
+To automatically open RViz run:
+
+```bash
+ros2 launch rslidar_sdk start.py use_rviz:=true
+```
+
+by default `use_rviz` is `false`.
+
 Another version of start.py may be used, since it is different on different versions of ROS2. For example, elequent_start.py is used instead for ROS2 elequent.
 
 
